@@ -1,11 +1,11 @@
 ## Prediction of source flow based on microbial abundance data
 The sample microbial abundance data file is under the `test_data/` folder for test, the format of other input data is the same as the file format in this folder.
-The script used is called `predict_class.py`
 
 Note1: that scikit-learn is available in version 1.1.2, other version maybe failed.
 
 Note2: Due to the large size of the model, it requires more than 16G of memory to run
 
+The script used is called `predict_class.py`
 Usage:
 ```shell
 python predict_class_pipe.py -f all_feature -l file_list.txt -m multi_class.model -c train_project_class.txt
