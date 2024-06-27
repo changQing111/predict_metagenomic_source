@@ -7,6 +7,7 @@ python predict_class_pipe.py -f all_feature -l file_list.txt -m multi_class.mode
 ```
 `all_feature`, `multi_class.model`, `train_project_class.txt`
 All three files can be downloaded here https://zenodo.org/records/12542364
+
 `file_list.txt` microbial abundance data file path
 ```shell
 $ cat file_list.txt
