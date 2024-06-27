@@ -23,8 +23,8 @@ test_data/ERR3515526.txt
 output result:
 ```shell
 FileName BioProject Class
-ERR2726438.txt PRJEB11532      human_gut
-ERR2726431.txt PRJEB11532      human_gut
-ERR3515526.txt PRJEB34231      bovine_rumen
+test_data/ERR2726438.txt PRJEB11532      human_gut
+test_data/ERR2726431.txt PRJEB11532      human_gut
+test_data/ERR3515526.txt PRJEB34231      bovine_rumen
 ```
 The output has three columns, the first column is file name, the second column is BioProject, the third column is the category that BioProject corresponds to
