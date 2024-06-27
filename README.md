@@ -1,7 +1,7 @@
-## Prediction of source flow based on microbial abundance data
+## Prediction of source pipeline based on microbial abundance data
 The sample microbial abundance data file is under the `test_data/` folder for test, the format of other input data is the same as the file format in this folder.
 
-Note1: that scikit-learn is available in version 1.1.2, other version maybe failed.
+Note1: The scikit-learn is available in version 1.1.2, other version maybe failed.
 
 Note2: Due to the large size of the model, it requires more than 16G of memory to run
 
@@ -11,7 +11,7 @@ Usage:
 python predict_class_pipe.py -f all_feature -l file_list.txt -m multi_class.model -c train_project_class.txt
 ```
 `all_feature`, `multi_class.model`, `train_project_class.txt`
-All three files can be downloaded here https://zenodo.org/records/12542364
+The three files can be downloaded here https://zenodo.org/records/12542364
 
 `file_list.txt` microbial abundance data file path
 ```shell
