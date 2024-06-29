@@ -27,4 +27,7 @@ test_data/ERR2726438.txt PRJEB11532      human_gut
 test_data/ERR2726431.txt PRJEB11532      human_gut
 test_data/ERR3515526.txt PRJEB34231      bovine_rumen
 ```
-The output has three columns, the first column is file name, the second column is BioProject, the third column is the category that BioProject corresponds to
+The output has three columns, the first column is file name, the second column is BioProject, the third column is the category that BioProject corresponds to.
+
+We also set up a web page for everyone to use online, the website is http://www.metakssdcoabundance.link/metakssd/prediction, directly upload the abundance data file to predict the result.
+
